@@ -1,0 +1,21 @@
+.two-columns {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 4rem;
+}
+
+#skills-div {
+    background-color: #05001E;
+    min-height: 30vh;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#skills-div p {
+    color: white;
+}

@@ -1,0 +1,33 @@
+.responsive-img {
+    width: 80%;
+    height: auto;
+    border-radius: 0.2rem;
+    box-shadow: rgba(69, 73, 77, 0.733) 0px 8px 24px;
+}
+
+#thumbnail {
+    display: grid;
+    min-height: 50vh;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#thumbnail p {
+    color: white;
+    margin-bottom: 2.3rem;
+}
+
+#thumbnail h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.logo {
+
+    margin-bottom: 0.5rem;
+}

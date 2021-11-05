@@ -1,0 +1,9 @@
+
+#navigation-bar {
+    height: 5rem;
+}
+
+li {
+    display: inline;
+    padding: 1rem;
+}
