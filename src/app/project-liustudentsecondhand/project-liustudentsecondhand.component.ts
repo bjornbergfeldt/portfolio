@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-project-liustudentsecondhand',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectLiustudentsecondhandComponent implements OnInit {
 
-  constructor() { }
+  constructor(private metaTagService: Meta) { }
 
   ngOnInit(): void {
+
+    this.metaTagService.addTags([
+      {property: 'og:title', content: 'LiU Student Secondhand'},
+      {property: 'og:image', content: './assets/images/lssh.png'}
+    ]);
+
   }
 
 }
