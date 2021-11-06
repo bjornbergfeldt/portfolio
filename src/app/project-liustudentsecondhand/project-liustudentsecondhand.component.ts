@@ -14,7 +14,7 @@ export class ProjectLiustudentsecondhandComponent implements OnInit {
 
     this.metaTagService.addTags([
       {property: 'og:title', content: 'LiU Student Secondhand'},
-      {property: 'og:image', content: './assets/images/lssh.png'}
+      {property: 'og:image', content: 'https://bjornbergfeldt.github.io/portfolio/assets/images/lssh.png'}
     ]);
 
   }
