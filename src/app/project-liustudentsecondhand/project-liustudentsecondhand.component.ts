@@ -16,7 +16,7 @@ export class ProjectLiustudentsecondhandComponent implements OnInit {
       {property: 'og:title', content: 'LiU Student Secondhand'},
       {property: 'og:type', content: 'website'},
       {property: 'og:url', content: 'https://bjornbergfeldt.github.io/portfolio/liustudentsecondhand'},
-      {property: 'og:image', content: 'https://bjornbergfeldt.github.io/portfolio/assets/images/lssh.png'}
+      {property: 'og:image', content: 'https://live.staticflickr.com/65535/50695970536_d494012b59.jpg'}
     ]);
 
   }
