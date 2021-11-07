@@ -5,7 +5,11 @@ import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
   { path: '', component: ProjectsComponent },
-  { path: 'liustudentsecondhand', component: ProjectLiustudentsecondhandComponent },
+  { path: 'liustudentsecondhand', component: ProjectLiustudentsecondhandComponent, 
+  data: {
+    title: 'Title for First Component',
+    descrption: 'Description of First Component'
+  } },
   { path: 'receptly', component: ProjectsComponent }
 ];
 
