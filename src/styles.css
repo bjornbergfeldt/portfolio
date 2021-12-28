@@ -8,7 +8,8 @@
 
 html, body { 
     height: 100%; 
-    background: #F1F1F1;
+    background: #ebebeb;
+    background-image: url('assets/images/snow_gif.gif');
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 

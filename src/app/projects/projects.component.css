@@ -19,3 +19,18 @@
 #skills-div p {
     color: white;
 }
+
+.caption {
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    width: 80%;
+    margin:auto;
+    
+}
+
+.heading {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+}
+
